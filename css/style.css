@@ -1,39 +1,10 @@
-body{
-    font-size:20px;
-    font-weight:bold;
-    line-height:1.6em;
-    background-color:peru;
-    background-image:url('../img/doug.jpg');
-    background-repeat:no-repeat;
-    background-position: center;
-
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
-.container {
-    font-size:18px;
-    color:white;
-    width:800px;
-    margin:auto;
-    padding:15px;
+.navbar .dropdown-menu {
+   margin-top: 0px;
 }
-#main-header {
-    padding-top:20px; 
-    color: #eee;
-    border: 1px #333 solid;
-}
-#main-header h1 {
-    text-align:center;
-}
-#main-list {
-    font-size:14px;
-    padding:8px;
-    padding-left:20px;
-    color:#333;
-    list-style:square;
-}
-#main-footer{
-    position:bottom;
-    color:grey;
-    text-align:center;
-    
-}
+.navbar .dropdown-menu .dropdown-item .a:hover{
+    color: rgba(0, 0, 0)
+ }
