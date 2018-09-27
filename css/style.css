@@ -5,10 +5,10 @@
 .navbar .dropdown-menu {
    margin-top: 0px;
 }
-.navbar .dropdown-menu .dropdown-item .a:hover{
-    color: rgba(f, f, f)
+.navbar .dropdown-menu a {
+    color:white
+}
+.navbar .dropdown-menu a:hover{
+    background-color: black
  }
 
- .bg-muted {
-     background-color: darkgray
- }
