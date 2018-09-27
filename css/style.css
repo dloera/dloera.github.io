@@ -6,5 +6,9 @@
    margin-top: 0px;
 }
 .navbar .dropdown-menu .dropdown-item .a:hover{
-    color: rgba(0, 0, 0)
+    color: rgba(f, f, f)
+ }
+
+ .bg-muted {
+     background-color: darkgray
  }
