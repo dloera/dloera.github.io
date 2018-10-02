@@ -12,3 +12,9 @@
     background-color: black
  }
 
+ @media only screen and (min-width: 768px) {
+    header.masthead .site-heading h1.CT {
+      font-size: 65px;
+    }
+  }
+  
