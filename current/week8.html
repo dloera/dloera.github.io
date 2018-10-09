@@ -39,7 +39,7 @@
               <a class="nav-link" href="../">Home</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="../lectures/index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="../lectures/index.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   Lectures
                 </a>
                 <div class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
@@ -54,7 +54,7 @@
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="../handson/index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="../handson/index.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   Hands-On
                 </a>
                 <div class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
@@ -69,7 +69,7 @@
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   Current Topics
                 </a>
                 <div class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
@@ -92,7 +92,7 @@
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('../img/home-bg.jpg')">
+    <header class="masthead" style="background-image: url('../img/what-is-a-payment-gateway.png')">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
@@ -100,41 +100,63 @@
             <div class="site-heading">
               <h1 class ="CT">CIT82 - Current Topics</h1>
               <h1 class ="CT">Week 8</h1>
-              <span class="subheading">Payment Gateway and Web Dev Builds</span>
             </div>
           </div>
         </div>
       </div>
     </header>
 
-        <!-- Footer -->
-        <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 col-md-10 mx-auto">
-                <ul class="list-inline text-center">
-                  <li class="list-inline-item">
-                    <a href="https://www.facebook.com/doug.loera">
-                      <span class="fa-stack fa-lg">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                      </span>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="https://github.com/dloera">
-                      <span class="fa-stack fa-lg">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-                <p class="copyright text-muted">Created by: Doug Loera 2018</p>
-              </div>
-            </div>
+    <!-- Content -->
+    <article>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+
+            <h2 class="section-heading">Payment Gateway and Web Dev Builds</h2>
+            <p>This week we watched a video about Payment Gateways and Web Dev Build Systems.</p>
+            <h3>Payment Gateway</h3>
+            <p>
+                I'm a little late, was busy with work last week unfortunately, but I'm here now. I was interested in WHY payment gateways might or might not be required. So I chose <a href="https://www.bigcommerce.com/ecommerce-answers/what-is-a-payment-gateway-and-what-is-its-role-in-ecommerce/">this website</a> as a reference:
+              <br>
+                Payment gateways are said to be needed to act as a conduit between the buyer and seller through a third-party website/app such as PayPal, Woocommerce, etc. Security of the payment between merchant and customer is important, so the use of a trusted gateway might be considered trustworthy. While they can be expensive to use, nowadays they now offer even more services, such as calculating taxes for you or accepting different forms of payment, or even help with fraud-prevention. In a global economy, this can be very important. They also provide a bit of insulation from having to deal with the security aspects of making a transaction, and can focus on the products for an eCommerce page.
+            </p>
+            <h3>Web Dev Build Systems</h3>
+            <p>
+                I chose to do <a href= "https://webpack.js.org/">Webpack</a>, which is an open-sourse JS module bundler to consolidate your JS files. It builds a dependency graph that maps modules that a project needs into one (or more as needed) bundles. The way I understand it is that you tell Webpack which JS files to use, then Webpack creates a hierarchy of files/dependencies needed to create a singular bundle. Without any plugins, Webpack only works with JS and JSON files. With further plugins, you can  expands the functionality, such as being able to use Webpack on HTML or CSS Files. There are quite a few options for Webpack, one being mode, which helps to optimize the website either for development or production. The purpose of Webpack, unlike some of the other module bundlers, is to support any module format to handle both resource management and asset management alike. While putting all JS files into one bit file can work, taking into account dependencies, it may not be ideal for how a website is actually loaded. Webpack helps with this. 
+            </p>
           </div>
-        </footer>
+        </div>
+      </div>
+    </article>    
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/doug.loera">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/dloera">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright text-muted">Created by: Doug Loera 2018</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="../vendor/jquery/jquery.min.js"></script>

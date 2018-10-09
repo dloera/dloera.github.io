@@ -1,20 +1,6 @@
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.navbar .dropdown-menu {
-   margin-top: 0px;
-}
-.navbar .dropdown-menu a {
-    color:white
-}
-.navbar .dropdown-menu a:hover{
-    background-color: black
- }
-
- @media only screen and (min-width: 768px) {
-    header.masthead .site-heading h1.CT {
-      font-size: 65px;
-    }
-  }
-  
+.dropdown:hover .dropdown-menu { display: block; }
+.navbar .dropdown-menu { margin-top: 0px; }
+.navbar .dropdown-menu a { color:white }
+.navbar .dropdown-menu a:hover{ background-color: black }
+ @media only screen and (min-width: 768px) { header.masthead .site-heading h1.CT { font-size: 65px;} }
+p a { color:red  }
