@@ -3,4 +3,12 @@
 .navbar .dropdown-menu a { color:white }
 .navbar .dropdown-menu a:hover{ background-color: black }
  @media only screen and (min-width: 768px) { header.masthead .site-heading h1.CT { font-size: 65px;} }
+ @media (max-width:960px) {
+    .dropdown:hover .dropdown-menu {
+        display:none
+    }
+ }
 p a { color:red  }
+header.MG {
+background-position:center top;
+}
